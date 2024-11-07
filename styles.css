@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fdebd0;
+  display: flex;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  background-color: #097969;
+  width: 250px;
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.name {
+  color: #90bfc5;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar-link {
+  color: #fdebd0;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.sidebar-link.active {
+  font-weight: bold;
+}
+
+/* Content Styles */
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+h2 {
+  color: #097969;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+h3 {
+  color: #6e9296;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+p {
+  font-weight: 200;
+  font-size: 18px;
+  color: #000;
+  line-height: 1.6;
+}
