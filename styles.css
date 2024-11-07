@@ -25,7 +25,7 @@ body {
 }
 
 .name {
-  color: #bbdefb;
+  color: #ffffff;
   font-weight: 300;
   font-size: 1.2em;
   margin-bottom: 30px;
@@ -38,7 +38,7 @@ body {
 }
 
 .sidebar-link {
-  color: #bbdefb;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 400;
   font-size: 1em;
@@ -47,7 +47,7 @@ body {
 
 .sidebar-link:hover,
 .sidebar-link.active {
-  color: #ffffff;
+  color: #bbdefb;
   font-weight: bold;
 }
 
