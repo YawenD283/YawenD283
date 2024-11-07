@@ -26,6 +26,12 @@ body {
   margin-bottom: 10px;
 }
 
+main {
+  margin-left: 160px; /* Adjust to match sidebar width */
+  padding: 20px;
+  overflow-y: auto;
+}
+
 .name {
   color: #90bfc5;
   font-weight: 300;
