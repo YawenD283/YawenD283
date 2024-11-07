@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Montserrat', sans-serif;
   background-color: #e3f2fd;
   display: flex;
@@ -51,6 +52,7 @@ body {
   font-weight: bold;
 }
 
+/* Main Content Styling */
 main {
   margin-left: 220px;
   padding: 20px;
