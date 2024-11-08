@@ -20,7 +20,7 @@
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  justify-content: flex-start; /* Align items to the left */
+  justify-content: flex-start;
 }
 
 .name {
@@ -33,7 +33,7 @@
 .nav-links {
   display: flex;
   gap: 20px;
-  margin-left: 20px; /* Add margin to separate name from links */
+  margin-left: 20px;
 }
 
 .nav-link {
@@ -43,13 +43,14 @@
   font-size: 1.1em;
   display: flex;
   align-items: center;
-  padding: 5px 10px; /* Add padding for click area */
+  padding: 5px 10px;
   border-radius: 5px;
 }
 
 .nav-link.active {
-  background-color: #bbdefb; /* Light blue background for active link */
-  color: #333A56; /* Dark text for contrast */
+  color: #bbdefb;
+  font-weight: bold;
+  border-bottom: 2px solid #bbdefb;
 }
 
 .nav-link:hover {
