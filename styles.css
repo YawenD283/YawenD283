@@ -1,3 +1,9 @@
+.body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F7F5E6;
+}
+
 .navbar {
   background-color: #333A56;
   color: #ffffff;
@@ -12,18 +18,18 @@
   align-items: center;
   width: 90%;
   max-width: 1000px;
-  justify-content: space-between;
 }
 
 .name {
   font-size: 1.5em;
   font-weight: 600;
   color: #ffffff;
+  margin-right: 20px;
 }
 
 .nav-links {
   display: flex;
-  gap: 15px;
+  gap: 20px;
 }
 
 .nav-link {
